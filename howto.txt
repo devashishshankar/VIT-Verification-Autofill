@@ -1,0 +1,20 @@
+Tutorial:  http://code.google.com/chrome/extensions/getstarted.html
+
+STARTING GUIDE FOR MY CHROME APP
+
+-> manifest.json tells basic information about your app, like name, description, image, and what javascript has to be called and when.
+-> then i created 2 javascript files, one for student login, one for parent login (myscript.js, myscripp.js)
+-> JS code is simple, i just catch the verfication text inside the page and put it in the textbox.
+-> I used "content script" (in manifest.json file). They attach my javascript files whenever a particular website is opened.
+
+For running the app:
+-> See tutorial above.
+-> The unpacked folder "vitvc" can be run directly.
+-> I have also uploaded the folder as a zip file in dropbox.
+
+-> Now you can make changes to my source files to change any webpage. JavaScript is really powerfull. And you can make other Chrome extensions. Its really easy!
+
+FIREFOX
+-> Port these JS files to firefox extension.
+
+
