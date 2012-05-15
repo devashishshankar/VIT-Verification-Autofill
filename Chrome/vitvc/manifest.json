@@ -1,0 +1,22 @@
+{
+  "name": "VIT verification cracker (PV)",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Fills the Verification codes automatically for academics.vit.ac.in. Works for Student & Parent Login.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+ "content_scripts": [
+    {
+      "matches": ["https://academics.vit.ac.in/student/stud_login.asp"],
+      "js": ["myscript.js"]
+    },
+{
+      "matches": ["https://academics.vit.ac.in/parent/parent_login.asp"],
+      "js": ["myscripp.js"]
+    }
+  ],
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
